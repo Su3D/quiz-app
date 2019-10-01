@@ -46,11 +46,11 @@
     "choices": [
       {
         "value": "3",
-        "correct": true
+        "correct": false
       },
       {
         "value": "6",
-        "correct": false
+        "correct": true
       },
       {
         "value": "9",
@@ -88,11 +88,11 @@
     "choices": [
       {
         "value": "5",
-        "correct": true
+        "correct": false
       },
       {
         "value": "2",
-        "correct": false
+        "correct": true
       },
       {
         "value": "3",

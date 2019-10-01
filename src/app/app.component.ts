@@ -1,8 +1,17 @@
 // src/app/app.component.ts
 import { Component } from '@angular/core';
-import { QuestionsService } from './questions.service';
-import { Quiz, Answers, Choice } from './quiz.model';
+//import { QuestionsService } from './questions.service';
+//import { Quiz, Answers, Choice } from './quiz.model';
 
+
+@Component({
+  selector: 'app-root',
+  template: '<router-outlet></router-outlet>'
+})
+
+export class AppComponent { }
+
+/*
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -36,3 +45,4 @@ export class AppComponent {
     this.currentQuestionIndex++;
   }
 }
+*/
