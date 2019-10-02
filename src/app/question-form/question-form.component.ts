@@ -3,6 +3,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Question } from '../quiz.model';
 
+
 @Component({
   selector: 'app-question-form',
   templateUrl: './question-form.component.html',

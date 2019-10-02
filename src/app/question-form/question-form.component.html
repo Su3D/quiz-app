@@ -1,12 +1,12 @@
 <!-- src/app/question-form/question-form.component.html -->
-<div class="quiz" *ngIf="question">
-  <h1>{{question.label}}</h1>
+<mat-card class="quiz" *ngIf="question">
+  <h2>{{question.label}}</h2>
   <form [formGroup]="form">
-    <div class="form-group">
+    <mat-card-content class="form-group">
       <label *ngFor="let choice of question.choices">
         <input type="radio" [value]="choice" formControlName="choice">
         <span>{{choice.value}}</span>
       </label>
-    </div>
+    </mat-card-content>
   </form>
-</div>
+</mat-card>

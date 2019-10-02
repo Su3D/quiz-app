@@ -1,14 +1,12 @@
 <div class="welcome">
-  <h2> Quizzes</h2>
+  <h1> Quizzes</h1>
   <div class="list" *ngFor="let q of quiz">
-    <table style="width:50%">
-      <tr>
-        <th>{{q.label}}</th>
-        <th>{{q.description}}</th>
-        <th>
-          <a routerLink="/{{q.name}}" class="btn btn-primary">Select this quiz</a>
-        </th>
-      </tr>
-    </table>
+    <mat-card>
+      <mat-card-title>{{q.label}}</mat-card-title>
+      <mat-card-content>{{q.description}}</mat-card-content>
+      <mat-card-actions>
+        <a routerLink="/{{q.name}}"><button mat-flat-button color="primary">Select {{q.label}}</button></a>
+      </mat-card-actions>
+    </mat-card>
   </div>
 </div>

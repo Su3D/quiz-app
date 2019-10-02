@@ -1,6 +1,5 @@
 <!-- src/app.component.html -->
 <div class="quiz" *ngIf="quiz">
-
   <div class="questions" *ngIf="!showResults">
     <app-question-form [question]="quiz.questions[currentQuestionIndex]" (onChoiceMade)="updateChoice($event)">
     </app-question-form>

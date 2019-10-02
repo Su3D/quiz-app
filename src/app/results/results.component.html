@@ -1,12 +1,13 @@
-<div class="results">
+<mat-card class="results">
   <h2>Results</h2>
 
   <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
     {{a.value}}
     {{a.correct}}
   </div>
-</div>
+</mat-card>
 
-<a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+<a routerLink="/welcome" class="btn btn-primary"><button mat-button class="btn btn-success">Choose Another
+    Quiz</button></a>
 
-<!-- src/results/results.component.html ??? -->-->
+<!-- src/results/results.component.html ??? -->
