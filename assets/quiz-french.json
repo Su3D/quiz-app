@@ -1,0 +1,86 @@
+[
+  {
+    "label": "How do you say Hello in french?",
+    "choices": [
+      {
+        "value": "Au revoir",
+        "correct": false
+      },
+      {
+        "value": "Bonjour",
+        "correct": true
+      },
+      {
+        "value": "Tant pis",
+        "correct": false
+      },
+      {
+        "value": "Salut!",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "How do you say Goodbye in french?",
+    "choices": [
+      {
+        "value": "Au revoir",
+        "correct": true
+      },
+      {
+        "value": "Bonjour",
+        "correct": false
+      },
+      {
+        "value": "Tant pis",
+        "correct": false
+      },
+      {
+        "value": "Salut!",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "How do you say Cheers in french?",
+    "choices": [
+      {
+        "value": "Au revoir",
+        "correct": false
+      },
+      {
+        "value": "Bonjour",
+        "correct": false
+      },
+      {
+        "value": "Tant pis",
+        "correct": false
+      },
+      {
+        "value": "Salut!",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "How do you say Never Mind in french?",
+    "choices": [
+      {
+        "value": "Au revoir",
+        "correct": false
+      },
+      {
+        "value": "Bonjour",
+        "correct": false
+      },
+      {
+        "value": "Tant pis",
+        "correct": true
+      },
+      {
+        "value": "Salut!",
+        "correct": false
+      }
+    ]
+  }
+]
